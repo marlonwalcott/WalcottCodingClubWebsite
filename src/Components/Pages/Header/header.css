@@ -1,0 +1,275 @@
+:root {
+  --darkblue: #2b3051;
+  --white: #ffffff;
+  --regularblue: #4c7df6;
+  --grayfont: #7591ab;
+  --gold: #cbff00;
+  --bg-color: #2e3d4b;
+  --text-color: #2b3051;
+  --lightblue: #4cdcff;
+  --lightyellow: #fff2cd;
+  --spacegray: #e7e7e7;
+}
+
+.btn-call-to-action {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--gold) !important;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 0px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.header-main {
+  font-size: calc(1.275rem + 1.2vw);
+  margin-top: 400px;
+}
+
+.header_logoimage {
+  max-width: 180px;
+}
+
+@media (max-width: 700px) {
+  .header-main {
+    margin-top: 200px;
+  }
+  .header_logoimage {
+    max-width: 130px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-main {
+    margin-top: 0px;
+  }
+
+  .header_herobackground {
+    /* Your styles for the hero background */
+    /* ... */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex; /* Use flexbox to center the content vertically */
+    align-items: center;
+    justify-content: center;
+    background: url(https://res.cloudinary.com/dswjmtfun/image/upload/v1686768380/wcc_hero_mobile_dsqgo3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.header_btn-primary {
+  background: var(--gold) !important;
+  color: #2b3051 !important;
+  padding: 20px;
+  border: 0px;
+  border-radius: 0.25rem;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.header_second_lgfont {
+  font-size: 25px;
+  line-height: 23px;
+  color: white;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 200;
+}
+
+.navbar-scrolled {
+  background-color: rgb(0 56 123);
+  transition: background-color 1.6s ease;
+  padding: 0px;
+}
+
+.btn-primary {
+  background: var(--gold) !important;
+  color: #2b3051 !important;
+}
+
+.header_text-shadow-black {
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+
+.header_second_width {
+  max-width: 310px;
+  margin: auto;
+}
+
+.header_herobackground {
+  /* Your styles for the hero background */
+  /* ... */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex; /* Use flexbox to center the content vertically */
+  align-items: center;
+  justify-content: center;
+  background: url(https://res.cloudinary.com/dswjmtfun/image/upload/v1686768373/wcc_hero_HQ_eaxnlj.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header_big-six-max-width {
+  max-width: 272px;
+  width: 100%;
+}
+
+.header_margin-top-width-180 {
+  width: 180px;
+}
+
+.header_margin-top-image-5 {
+  margin-top: -5px;
+}
+
+.header_margin-top-90 {
+  margin-top: 90px !important;
+}
+
+.header_margin-top-40 {
+  margin-top: 40px !important;
+}
+
+.header_mx-650 {
+  max-width: 417px;
+  margin: auto;
+  opacity: 1;
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.header_mx-1000 {
+  max-width: 1000px;
+  margin: auto;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.header_margin-35 {
+  margin-top: 35px !important;
+}
+
+.header_margin-15 {
+  margin-top: 15px !important;
+}
+
+.header_LinkValue {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.header_containertop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header_topheader {
+    margin-top: 80px !important;
+    margin-bottom: 14px;
+  }
+}
+
+.header_technologynew {
+  color: var(--darkblue) !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.header_technology {
+  color: var(--darkblue) !important;
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+.header_educationtag {
+  background-color: var(--darkblue) !important;
+  color: #ccff00 !important;
+  max-width: 300px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: -30px;
+}
+
+.header_schooltoplabel {
+  text-align: center;
+  background: var(--gold) !important;
+  color: var(--darkblue) !important;
+  padding: 10px;
+}
+
+.header_individualtoplabel {
+  text-align: center;
+  color: var(--gold) !important;
+  background: var(--regularblue) !important;
+  padding: 10px;
+}
+
+.header_largefont {
+  font-size: 28px;
+}
+
+.header_btn-info {
+  color: #cbfe00;
+  background-color: #1a44ad;
+  border-color: #cbfe00;
+}
+
+.header_btn-info:hover {
+  background-color: #10473b !important;
+  color: #ccff00 !important;
+  border: 2px solid #ccff00;
+}
+
+@media screen and (max-width: 600px) {
+  .header_hidegamemobile {
+    display: none;
+  }
+}
+
+.header_nav-link {
+  color: var(--gold) !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+.header_whitecolor {
+  color: white;
+}
+
+.header_spacegraycolor {
+  color: var(--spacegray) !important;
+}
+
+.header_spacegray {
+  background: var(--spacegray) !important;
+}
+
+.header_highlights {
+  background: #cbff00;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header_btn2 {
+  padding: ...;
+}

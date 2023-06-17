@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --darkblue: #2b3051;
+  --white: #ffffff;
+  --regularblue: #4c7df6;
+  --grayfont: #7591ab;
+  --gold: #cbff00;
+  --bg-color: #2e3d4b;
+  --text-color: #2b3051;
+  --lightblue: #4cdcff;
+  --lightyellow: #fff2cd;
+  --spacegray: #e7e7e7;
+}
+
+/* Add animation to navbar background */
+
+.navbar {
+  transition: background-color 3s ease;
+}
+
+/* Add transition to logo size */
+.header_logoimage {
+  transition: max-width 2s ease;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1424px;
+  }
+}
+
+.btn-primary {
+  background: var(--gold) !important;
+  color: #2b3051 !important;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #0b258d !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px; /* Adjust this value based on the height of your footer */
+}
