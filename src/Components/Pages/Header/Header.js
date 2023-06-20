@@ -59,7 +59,7 @@ const Header = () => {
         <div className="header_row header_justify-content-between">
           <div className="header_col-sm-12 header_col-lg-12 header_text-center">
             <h1 className="header_topheader  header_text-shadow-black header_highlights header-main">
-              Create Games, IT Solutions, Robots & More
+              Ex Create Games, Software, Robots & More
             </h1>
 
             <div className="header_text-center header_margin-35">

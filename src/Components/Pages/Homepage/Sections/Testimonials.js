@@ -4,13 +4,13 @@ import "./Testimonials.css";
 const Testimonials = () => {
   return (
     <div className="container">
-      <div class="testimonial-top">
-        Create Games & Software In Days Not YEARS
-      </div>
+      <div class="testimonial-top">Walcott Coding Club Is Awesome!</div>
       <div className="testimonial-centerdiv testimonial-text-151b2b testimonial-f-46 testimonial-f-w-400 testimonial-mx-650 testimonial-margin-top-90">
-        Have A Blast
+        Unleash Your Digital Superpowers.
         {"  "}
-        <span className="voiceline2">Exploring the Magic of Coding!</span>
+        <span className="voiceline2">
+          Have A Blast Exploring the Magic of Coding!
+        </span>
       </div>
 
       <div
@@ -32,7 +32,7 @@ const Testimonials = () => {
                 position: "absolute",
                 top: 0,
                 transition: "opacity 200ms",
-                width: "100%"
+                width: "100%",
               }}
             >
               <img
@@ -41,7 +41,7 @@ const Testimonials = () => {
                   filter: "blur(5px)",
                   height: "100%",
                   objectFit: "contain",
-                  width: "100%"
+                  width: "100%",
                 }}
                 alt=""
                 aria-hidden="true"
