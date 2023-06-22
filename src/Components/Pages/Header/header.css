@@ -34,7 +34,7 @@
 
 .header-main {
   font-size: calc(1.275rem + 1.2vw);
-  margin-top: 400px;
+  margin-top: 300px;
 }
 
 .header_logoimage {
@@ -43,7 +43,7 @@
 
 @media (max-width: 700px) {
   .header-main {
-    margin-top: 200px;
+    margin-top: 100px;
   }
   .header_logoimage {
     max-width: 130px;
@@ -268,6 +268,7 @@
   background: #cbff00;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  max-width: 800px;
 }
 
 .header_btn2 {

@@ -4,12 +4,14 @@ import "./Testimonials.css";
 const Testimonials = () => {
   return (
     <div className="container">
-      <div class="testimonial-top">Walcott Coding Club Is Awesome!</div>
+      <div class="testimonial-top">
+        Learn Game Development & Prompt Engineering!
+      </div>
       <div className="testimonial-centerdiv testimonial-text-151b2b testimonial-f-46 testimonial-f-w-400 testimonial-mx-650 testimonial-margin-top-90">
-        Unleash Your Digital Superpowers.
+        Our Goal Is Simple. Learn To Building A Game.
         {"  "}
         <span className="voiceline2">
-          Have A Blast Exploring the Magic of Coding!
+          Then Have A Blast Innovating With The Magic of Coding!
         </span>
       </div>
 
