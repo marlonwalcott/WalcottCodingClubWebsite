@@ -8,10 +8,10 @@ const Testimonials = () => {
         Learn Game Development & Prompt Engineering!
       </div>
       <div className="testimonial-centerdiv testimonial-text-151b2b testimonial-f-46 testimonial-f-w-400 testimonial-mx-650 testimonial-margin-top-90">
-        Our Goal Is Simple. Learn To Building A Game.
+        Our Goal SI Simple. Learn To Building A Game.
         {"  "}
         <span className="voiceline2">
-          Then Have A Blast Innovating With The Magic of Coding!
+          Then Have A Blast Engineering Solutions In Our Innovation Pods!
         </span>
       </div>
 
